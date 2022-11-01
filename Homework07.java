@@ -1,6 +1,7 @@
 package homeworks;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 
 public class Homework07 {
@@ -8,12 +9,12 @@ public class Homework07 {
 
 
         System.out.println("\n>>>--------------- TASK 1 ---------------<<<");
-        ArrayList<Integer> numbers1 = new ArrayList<>();
-        numbers1.add(10);
-        numbers1.add(23);
-        numbers1.add(67);
-        numbers1.add(23);
-        numbers1.add(78);
+        ArrayList<Integer> numbers1 = new ArrayList<>(Arrays.asList(10, 23, 67, 23, 78));
+        // numbers1.add(10);
+        // numbers1.add(23);
+        // numbers1.add(67);
+        // numbers1.add(23);
+        // numbers1.add(78);
         System.out.println(numbers1.get(3));
         System.out.println(numbers1.get(0));
         System.out.println(numbers1.get(2));
